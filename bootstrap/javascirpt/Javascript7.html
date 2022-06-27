@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    
+    var nota1 = prompt('Digite a nota 1')
+    var nota2 = prompt('Digite a nota 2')
+    var faltas = prompt('Digite a numero de faltas: ')
+    var media = 6
+    var nota
+    var numeroFaltas = 20
+    
+
+    nota1 = parseFloat(nota1)
+    nota2 = parseFloat(nota2)
+    nota = parseFloat(nota)
+    nota = (nota1 + nota2) / 2
+
+    if (nota >= media && faltas <= numeroFaltas) {
+        document.write('<h1>APROVADO</h1>')
+    } else if (nota >= 1 && faltas <= numeroFaltas) {
+        document.write('<h3>EM EXAME FINAL!!!</h3>')
+    } else {
+        document.write('<h3>Reprovado</h3>')
+    }
+
+
+
+
+</script>
+
+</body>
+
+</html>
